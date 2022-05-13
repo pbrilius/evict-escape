@@ -12,11 +12,11 @@
         },
         "blocklist": [],
         "equalizer": {
-            "input-gain": 0.0,
+            "input-gain": -1.0,
             "left": {
                 "band0": {
                     "frequency": 22.409377607517197,
-                    "gain": 7.28,
+                    "gain": -0.02,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.650449464127273,
@@ -26,7 +26,7 @@
                 },
                 "band1": {
                     "frequency": 27.808642868112116,
-                    "gain": 1.1,
+                    "gain": -1.2,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.6504494641272744,
@@ -246,7 +246,7 @@
                 },
                 "band3": {
                     "frequency": 42.82326680632096,
-                    "gain": 3.7,
+                    "gain": 1.1,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.6504494641272744,
@@ -337,7 +337,7 @@
             },
             "mode": "FFT",
             "num-bands": 32,
-            "output-gain": 0.0,
+            "output-gain": 1.0,
             "right": {
                 "band0": {
                     "frequency": 22.409377607517197,
@@ -351,7 +351,7 @@
                 },
                 "band1": {
                     "frequency": 27.808642868112116,
-                    "gain": 2.5,
+                    "gain": 0.3,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.6504494641272744,
@@ -571,7 +571,7 @@
                 },
                 "band3": {
                     "frequency": 42.82326680632096,
-                    "gain": 0.8,
+                    "gain": 0.2,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 4.6504494641272744,
@@ -886,7 +886,8 @@
             "reverb",
             "equalizer",
             "bass_enhancer",
-            "multiband_compressor"
+            "multiband_compressor",
+            "stereo_tools"
         ],
         "reverb": {
             "amount": -6.562460831962543,
@@ -900,6 +901,26 @@
             "predelay": 25.0,
             "room-size": "Medium",
             "treble-cut": 20000.0
+        },
+        "stereo_tools": {
+            "balance-in": 0.0,
+            "balance-out": 0.02,
+            "delay": -0.02,
+            "input-gain": 1.0,
+            "middle-level": 0.0,
+            "middle-panorama": 0.0,
+            "mode": "LR > RL (Stereo Flip Channels)",
+            "mutel": false,
+            "muter": false,
+            "output-gain": -1.0,
+            "phasel": true,
+            "phaser": true,
+            "sc-level": 1.0,
+            "side-balance": 0.0,
+            "side-level": 0.0,
+            "softclip": true,
+            "stereo-base": 0.01,
+            "stereo-phase": 0.01
         }
     }
 }
