@@ -6,7 +6,7 @@
             "floor": 20.0,
             "floor-active": true,
             "harmonics": 8.5,
-            "input-gain": -2.0,
+            "input-gain": -5.0,
             "output-gain": 5.0,
             "scope": 100.0
         },
@@ -668,17 +668,17 @@
             "bass_enhancer"
         ],
         "reverb": {
-            "amount": -10.716679676582991,
-            "bass-cut": 514.079,
-            "decay-time": 1.10354,
-            "diffusion": 0.69,
+            "amount": -6.562460831962543,
+            "bass-cut": 257.65,
+            "decay-time": 0.445945,
+            "diffusion": 0.54,
             "dry": 0.0,
-            "hf-damp": 2182.58,
-            "input-gain": 0.0,
-            "output-gain": 0.0,
-            "predelay": 6.5,
-            "room-size": "Large/smooth",
-            "treble-cut": 4064.15
+            "hf-damp": 5508.46,
+            "input-gain": -2.0,
+            "output-gain": 3.0,
+            "predelay": 25.0,
+            "room-size": "Medium",
+            "treble-cut": 20000.0
         }
     }
 }
